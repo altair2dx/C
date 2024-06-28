@@ -58,5 +58,8 @@ int main() {
     // Shift
     printf("Left Shift : %x \n", a << 2);  // 1010111100
     printf("Right Shift : %x \n", b >> 3);  // 00010110
+
+
+    // 산술변환 -- 서로 범위가 다른 자료형끼리 계산 시 범위가 큰 자료형으로 자료형이 바뀐다. 
     
 }
