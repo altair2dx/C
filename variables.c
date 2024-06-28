@@ -34,8 +34,8 @@ int main() {
     unsigned int i;
 
     // 서식지정자 %d(10진수), %o(8진수), %x(16진수), %ld(long형), %lld(long long형)
-    printf("a : %d \n", b);
-    printf("a : %5d \n", b); // 자리수가 5가 되도록 출력
+    printf("b : %d \n", b);
+    printf("b : %5d \n", b); // 자리수가 5가 되도록 출력
 
 
     /* --- 실수형 --- */
@@ -47,8 +47,8 @@ int main() {
     double k = 3.141592;
 
     // 서식지정자 %f
-    printf("a : %f \n", j); 
-    printf("a : %.2f \n", j); //소수점 둘째자리까지 출력
+    printf("j : %f \n", j); 
+    printf("j : %.2f \n", j); //소수점 둘째자리까지 출력
     
 }
 
