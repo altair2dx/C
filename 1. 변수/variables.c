@@ -2,8 +2,8 @@
 int main() {
 
     /* --- 변수 선언 --- */
-    int a; // a = 변수명
-    int b = 1;
+    int a; // a라는 변수를 만들어라
+    int b = 1; // b라는 변수를 만들고 1을 대입해라
 
     /* --- 변수명규칙 --- */
 
@@ -20,10 +20,10 @@ int main() {
     // short : 2byte
     short d;
 
-    // int : 4byte
+    // int : 4byte (정확히는 최소 2byte 의 범위를 포함한 정수형, 32bit 이상 환경에서는 4byte)
     int e;
 
-    // long : 4~8byte (OS마다 다르므로 권장하지 않음)
+    // long : 4~8byte (OS마다 다르므로 권장하지 않음, 32bit : 4byte | 64bit : 8byte | 예외적으로 Windows 64bit : 4byte)
     long f;
 
     // long long : 8byte
@@ -51,5 +51,3 @@ int main() {
     printf("j : %.2f \n", j); //소수점 둘째자리까지 출력
     
 }
-
-//b
